@@ -12,7 +12,7 @@ Importing Libraries:
 
 find_best_sarima_order Function:
 * This function takes a file path as input.
-* It loads the dataset, ensures a continuous date index, and utilizes auto_arima from pmdarima to find the best SARIMA parameters.
+* It loads the dataset, ensures a continuous date index, and uses auto_arima from pmdarima to find the best SARIMA parameters.
 * The best SARIMA order and seasonal order are returned.
 
 The code iterates through each dataset file path, calls the find_best_sarima_order function, and prints the best SARIMA order and seasonal order for each dataset.
